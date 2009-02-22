@@ -25,16 +25,22 @@ import os, sys, shutil
 setup(
 	name='python-ctags',
 	version='1.0.2',
-	description='python ctags bindings',
+	description='Exuberant Ctags supports indexing of many modern programming languages. '
+            'Python is a powerful scriptable dynamic language. Using Python to access Ctags '
+            "index file is a natural fit in extending an application's capability to examine "
+            'source code.'
+            'This project wrote a wrapper for readtags.c. I have been using the package in couple '
+            'of projects and it has been shown that it could easily handle hundreds of C/C++ source '
+            'files.',
 	author='Aaron H. K. Diep',
 	author_email='ahkdiep@gmail.com',
 	url='http://code.google.com/p/python-ctags/',
 	packages = ['ctags'],
 	ext_package='ctags',
 	ext_modules=[Extension(
-						'_readtags', ['src/readtags.c', 'src/_readtags.c'],
-						 include_dirs=['src/include']
+            '_readtags', ['src/readtags.c', 'src/_readtags.c'],
+            include_dirs=['src/include']
 						)],
 	package_dir = {'ctags' : 'src/ctags'}
-	
+
 	)
