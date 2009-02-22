@@ -23,11 +23,12 @@ from distutils.extension import Extension
 import os, sys, shutil
 
 setup(
-	name='ctags',
-	version='1.0.1',
+	name='python-ctags',
+	version='1.0.2',
 	description='python ctags bindings',
 	author='Aaron H. K. Diep',
 	author_email='ahkdiep@gmail.com',
+	url='http://code.google.com/p/python-ctags/',
 	packages = ['ctags'],
 	ext_package='ctags',
 	ext_modules=[Extension(
