@@ -24,7 +24,7 @@ import os, sys, shutil
 
 setup(
 	name='ctags',
-	version='1.0',
+	version='1.0.1',
 	description='python ctags bindings',
 	author='Aaron H. K. Diep',
 	author_email='ahkdiep@gmail.com',
