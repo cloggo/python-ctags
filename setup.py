@@ -1,20 +1,25 @@
+"""Exuberant Ctags indexing python bindings
+
+Exuberant Ctags supports indexing of many modern programming languages. Python 
+is a powerful scriptable dynamic language. Using Python to access Ctags index 
+file is a natural fit in extending an application's capability to examine source 
+code.
+
+This project wrote a wrapper for readtags.c. I have been using the package in 
+couple of projects and it has been shown that it could easily handle hundreds of
+C/C++ source files.
 """
-Copyright (C) 2008 Aaron Diep <ahkdiep@gmail.com>
 
-This file is part of Python-Ctags.
-
-Python-Ctags is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-Python-Ctags is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with Python-Ctags.  If not, see <http://www.gnu.org/licenses/>.
+classifiers = """\
+Development Status :: 5 - Production/Stable
+Intended Audience :: Developers
+Programming Language :: Python
+Programming Language :: C
+License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Operating System :: MacOS :: MacOS X
+Operating System :: Microsoft :: Windows
+Operating System :: POSIX
+Topic :: Software Development :: Libraries :: Python Modules
 """
 
 from distutils.core import setup
@@ -22,19 +27,18 @@ from distutils.command import build, clean
 from distutils.extension import Extension
 import os, sys, shutil
 
+doclines = __doc__.split("\n")
+
 setup(
 	name='python-ctags',
 	version='1.0.2',
-	description='Exuberant Ctags supports indexing of many modern programming languages. '
-            'Python is a powerful scriptable dynamic language. Using Python to access Ctags '
-            "index file is a natural fit in extending an application's capability to examine "
-            'source code.'
-            'This project wrote a wrapper for readtags.c. I have been using the package in couple '
-            'of projects and it has been shown that it could easily handle hundreds of C/C++ source '
-            'files.',
+	description=doclines[0],
 	author='Aaron H. K. Diep',
 	author_email='ahkdiep@gmail.com',
 	url='http://code.google.com/p/python-ctags/',
+	license = 'LGPL',
+	long_description="\n".join(doclines[2:]),
+	classifiers = filter(None, classifiers.split("\n")),
 	packages = ['ctags'],
 	ext_package='ctags',
 	ext_modules=[Extension(
