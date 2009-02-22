@@ -122,14 +122,8 @@ cdef class CTags:
     def setSortType(self, tagSortType type):
         return ctagsSetSortType(self.file, type)
 
-    def first(self, TagEntry entry=None):
-        if entry is None:
-            entry = TagEntry()
-
-        if ctagsFirst(self.file, &entry.c_entry) == TagSuccess:
-            return entry
-
-        return None
+    def first(self, TagEntry entry):
+        return ctagsFirst(self.file, &entry.c_entry) == TagSuccess:
 
     def find(self, TagEntry entry, char* name, int options):
         return ctagsFind(self.file, &entry.c_entry, name, options)
