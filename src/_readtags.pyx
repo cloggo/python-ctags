@@ -123,7 +123,7 @@ cdef class CTags:
         return ctagsSetSortType(self.file, type)
 
     def first(self, TagEntry entry):
-        return ctagsFirst(self.file, &entry.c_entry) == TagSuccess:
+        return ctagsFirst(self.file, &entry.c_entry)
 
     def find(self, TagEntry entry, char* name, int options):
         return ctagsFind(self.file, &entry.c_entry, name, options)
