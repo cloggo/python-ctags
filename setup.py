@@ -27,7 +27,7 @@ setup(
 	version='1.0',
 	description='python ctags bindings',
 	author='Aaron H. K. Diep',
-	author_email='hkdiep@gmail.com',
+	author_email='ahkdiep@gmail.com',
 	packages = ['ctags'],
 	ext_package='ctags',
 	ext_modules=[Extension(
