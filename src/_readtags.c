@@ -113,7 +113,7 @@
 #elif _WIN32
 #define INLINE __inline
 #else
-#define INLINE 
+#define INLINE
 #endif
 
 typedef struct {PyObject **p; char *s; long n; char is_unicode; char intern; char is_identifier;} __Pyx_StringTabEntry; /*proto*/
@@ -155,7 +155,7 @@ static INLINE signed long __pyx_PyInt_signed_long(PyObject* x);
 static INLINE long double __pyx_PyInt_long_double(PyObject* x);
 #ifdef __GNUC__
 /* Test for GCC > 2.95 */
-#if __GNUC__ > 2 ||               (__GNUC__ == 2 && (__GNUC_MINOR__ > 95)) 
+#if __GNUC__ > 2 ||               (__GNUC__ == 2 && (__GNUC_MINOR__ > 95))
 #define likely(x)   __builtin_expect(!!(x), 1)
 #define unlikely(x) __builtin_expect(!!(x), 0)
 #else /* __GNUC__ > 2 ... */
@@ -166,7 +166,7 @@ static INLINE long double __pyx_PyInt_long_double(PyObject* x);
 #define likely(x)   (x)
 #define unlikely(x) (x)
 #endif /* __GNUC__ */
-    
+
 static PyObject *__pyx_m;
 static PyObject *__pyx_b;
 static PyObject *__pyx_empty_tuple;
@@ -200,8 +200,8 @@ static int __Pyx_InitStrings(__Pyx_StringTabEntry *t); /*proto*/
 typedef void (*__pyx_t_9_readtags_signal_handler)(int);
 
 /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":65
- * 
- * 
+ *
+ *
  * cdef class CTags:             # <<<<<<<<<<<<<<
  *     cdef tagFile* file
  *     cdef tagFileInfo info
@@ -214,11 +214,11 @@ struct __pyx_obj_9_readtags_CTags {
 };
 
 /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":5
- * 
- * 
+ *
+ *
  * cdef class TagEntry:             # <<<<<<<<<<<<<<
  *     cdef tagEntry c_entry
- * 
+ *
  */
 
 struct __pyx_obj_9_readtags_TagEntry {
@@ -306,7 +306,7 @@ static char __pyx_k_22[] = "Invalid tag file";
 
 /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":8
  *     cdef tagEntry c_entry
- * 
+ *
  *     def __cinit__(self):             # <<<<<<<<<<<<<<
  *         self.c_entry.fields.count = 0
  *         self.c_entry.fields.list = NULL
@@ -324,11 +324,11 @@ static int __pyx_pf_9_readtags_8TagEntry___cinit__(PyObject *__pyx_v_self, PyObj
   }
 
   /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":9
- * 
+ *
  *     def __cinit__(self):
  *         self.c_entry.fields.count = 0             # <<<<<<<<<<<<<<
  *         self.c_entry.fields.list = NULL
- * 
+ *
  */
   ((struct __pyx_obj_9_readtags_TagEntry *)__pyx_v_self)->c_entry.fields.count = 0;
 
@@ -336,8 +336,8 @@ static int __pyx_pf_9_readtags_8TagEntry___cinit__(PyObject *__pyx_v_self, PyObj
  *     def __cinit__(self):
  *         self.c_entry.fields.count = 0
  *         self.c_entry.fields.list = NULL             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   ((struct __pyx_obj_9_readtags_TagEntry *)__pyx_v_self)->c_entry.fields.list = NULL;
 
@@ -346,8 +346,8 @@ static int __pyx_pf_9_readtags_8TagEntry___cinit__(PyObject *__pyx_v_self, PyObj
 }
 
 /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":13
- * 
- * 
+ *
+ *
  *     def __setitem__(self, key, item):             # <<<<<<<<<<<<<<
  *         if key == 'name':
  *             self.c_entry.name = item
@@ -373,7 +373,7 @@ static int __pyx_pf_9_readtags_8TagEntry___setitem__(PyObject *__pyx_v_self, PyO
   __pyx_v_v = Py_None; Py_INCREF(Py_None);
 
   /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":14
- * 
+ *
  *     def __setitem__(self, key, item):
  *         if key == 'name':             # <<<<<<<<<<<<<<
  *             self.c_entry.name = item
@@ -533,7 +533,7 @@ static int __pyx_pf_9_readtags_8TagEntry___setitem__(PyObject *__pyx_v_self, PyO
  *             # fields.list is allocated by readtags.c
  *             if self.c_entry.fields.count != len(item):             # <<<<<<<<<<<<<<
  *                 return
- * 
+ *
  */
     __pyx_6 = PyObject_Length(__pyx_v_item); if (unlikely(__pyx_6 == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 28; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __pyx_2 = (((struct __pyx_obj_9_readtags_TagEntry *)__pyx_v_self)->c_entry.fields.count != __pyx_6);
@@ -543,7 +543,7 @@ static int __pyx_pf_9_readtags_8TagEntry___setitem__(PyObject *__pyx_v_self, PyO
  *             # fields.list is allocated by readtags.c
  *             if self.c_entry.fields.count != len(item):
  *                 return             # <<<<<<<<<<<<<<
- * 
+ *
  *             fields = item
  */
       __pyx_r = 0;
@@ -554,7 +554,7 @@ static int __pyx_pf_9_readtags_8TagEntry___setitem__(PyObject *__pyx_v_self, PyO
 
     /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":31
  *                 return
- * 
+ *
  *             fields = item             # <<<<<<<<<<<<<<
  *             if self.c_entry.fields.list != NULL:
  *                 free(self.c_entry.fields.list)
@@ -564,7 +564,7 @@ static int __pyx_pf_9_readtags_8TagEntry___setitem__(PyObject *__pyx_v_self, PyO
     __pyx_v_fields = __pyx_v_item;
 
     /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":32
- * 
+ *
  *             fields = item
  *             if self.c_entry.fields.list != NULL:             # <<<<<<<<<<<<<<
  *                 free(self.c_entry.fields.list)
@@ -578,7 +578,7 @@ static int __pyx_pf_9_readtags_8TagEntry___setitem__(PyObject *__pyx_v_self, PyO
  *             if self.c_entry.fields.list != NULL:
  *                 free(self.c_entry.fields.list)             # <<<<<<<<<<<<<<
  *                 self.c_entry.fields.list = NULL
- * 
+ *
  */
       free(((struct __pyx_obj_9_readtags_TagEntry *)__pyx_v_self)->c_entry.fields.list);
 
@@ -586,7 +586,7 @@ static int __pyx_pf_9_readtags_8TagEntry___setitem__(PyObject *__pyx_v_self, PyO
  *             if self.c_entry.fields.list != NULL:
  *                 free(self.c_entry.fields.list)
  *                 self.c_entry.fields.list = NULL             # <<<<<<<<<<<<<<
- * 
+ *
  *             for k, v in fields.iteritems():
  */
       ((struct __pyx_obj_9_readtags_TagEntry *)__pyx_v_self)->c_entry.fields.list = NULL;
@@ -596,7 +596,7 @@ static int __pyx_pf_9_readtags_8TagEntry___setitem__(PyObject *__pyx_v_self, PyO
 
     /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":36
  *                 self.c_entry.fields.list = NULL
- * 
+ *
  *             for k, v in fields.iteritems():             # <<<<<<<<<<<<<<
  *                 self.c_entry.fields.list.key = k
  *                 self.c_entry.fields.list.value = v
@@ -654,11 +654,11 @@ static int __pyx_pf_9_readtags_8TagEntry___setitem__(PyObject *__pyx_v_self, PyO
       }
 
       /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":37
- * 
+ *
  *             for k, v in fields.iteritems():
  *                 self.c_entry.fields.list.key = k             # <<<<<<<<<<<<<<
  *                 self.c_entry.fields.list.value = v
- * 
+ *
  */
       __pyx_3 = __Pyx_PyBytes_AsString(__pyx_v_k); if (unlikely((!__pyx_3) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 37; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       ((struct __pyx_obj_9_readtags_TagEntry *)__pyx_v_self)->c_entry.fields.list->key = __pyx_3;
@@ -667,7 +667,7 @@ static int __pyx_pf_9_readtags_8TagEntry___setitem__(PyObject *__pyx_v_self, PyO
  *             for k, v in fields.iteritems():
  *                 self.c_entry.fields.list.key = k
  *                 self.c_entry.fields.list.value = v             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __getitem__(self, key):
  */
       __pyx_3 = __Pyx_PyBytes_AsString(__pyx_v_v); if (unlikely((!__pyx_3) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 38; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -696,7 +696,7 @@ static int __pyx_pf_9_readtags_8TagEntry___setitem__(PyObject *__pyx_v_self, PyO
 
 /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":40
  *                 self.c_entry.fields.list.value = v
- * 
+ *
  *     def __getitem__(self, key):             # <<<<<<<<<<<<<<
  *         cdef char* result
  *         if key == 'name':
@@ -882,7 +882,7 @@ static PyObject *__pyx_pf_9_readtags_8TagEntry___getitem__(PyObject *__pyx_v_sel
  *             result = ctagsField(&self.c_entry, key)
  *             if result == NULL:             # <<<<<<<<<<<<<<
  *                 return None
- * 
+ *
  */
     __pyx_2 = (__pyx_v_result == NULL);
     if (__pyx_2) {
@@ -891,7 +891,7 @@ static PyObject *__pyx_pf_9_readtags_8TagEntry___getitem__(PyObject *__pyx_v_sel
  *             result = ctagsField(&self.c_entry, key)
  *             if result == NULL:
  *                 return None             # <<<<<<<<<<<<<<
- * 
+ *
  *             return result
  */
       Py_INCREF(Py_None);
@@ -903,10 +903,10 @@ static PyObject *__pyx_pf_9_readtags_8TagEntry___getitem__(PyObject *__pyx_v_sel
 
     /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":61
  *                 return None
- * 
+ *
  *             return result             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
     __pyx_1 = __Pyx_PyBytes_FromString(__pyx_v_result); if (unlikely(!__pyx_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 61; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __pyx_r = __pyx_1;
@@ -927,10 +927,10 @@ static PyObject *__pyx_pf_9_readtags_8TagEntry___getitem__(PyObject *__pyx_v_sel
 
 /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":69
  *     cdef tagFileInfo info
- * 
+ *
  *     def __cinit__(self, filepath):             # <<<<<<<<<<<<<<
  *         self.open(filepath)
- * 
+ *
  */
 
 static int __pyx_pf_9_readtags_5CTags___cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
@@ -954,10 +954,10 @@ static int __pyx_pf_9_readtags_5CTags___cinit__(PyObject *__pyx_v_self, PyObject
   __pyx_L4:;
 
   /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":70
- * 
+ *
  *     def __cinit__(self, filepath):
  *         self.open(filepath)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __dealloc__(self):
  */
   __pyx_1 = PyObject_GetAttr(__pyx_v_self, __pyx_kp_open); if (unlikely(!__pyx_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 70; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -983,9 +983,9 @@ static int __pyx_pf_9_readtags_5CTags___cinit__(PyObject *__pyx_v_self, PyObject
 
 /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":72
  *         self.open(filepath)
- * 
+ *
  *     def __dealloc__(self):             # <<<<<<<<<<<<<<
- * 
+ *
  *         if self.file:
  */
 
@@ -995,19 +995,19 @@ static void __pyx_pf_9_readtags_5CTags___dealloc__(PyObject *__pyx_v_self) {
 
   /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":74
  *     def __dealloc__(self):
- * 
+ *
  *         if self.file:             # <<<<<<<<<<<<<<
  *             ctagsClose(self.file)
- * 
+ *
  */
   __pyx_1 = (((struct __pyx_obj_9_readtags_CTags *)__pyx_v_self)->file != 0);
   if (__pyx_1) {
 
     /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":75
- * 
+ *
  *         if self.file:
  *             ctagsClose(self.file)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __getitem(self, key):
  */
     tagsClose(((struct __pyx_obj_9_readtags_CTags *)__pyx_v_self)->file);
@@ -1019,7 +1019,7 @@ static void __pyx_pf_9_readtags_5CTags___dealloc__(PyObject *__pyx_v_self) {
 
 /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":77
  *             ctagsClose(self.file)
- * 
+ *
  *     def __getitem(self, key):             # <<<<<<<<<<<<<<
  *         if key == 'opened':
  *             return self.info.status.opened
@@ -1032,7 +1032,7 @@ static PyObject *__pyx_pf_9_readtags_5CTags___getitem(PyObject *__pyx_v_self, Py
   int __pyx_2;
 
   /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":78
- * 
+ *
  *     def __getitem(self, key):
  *         if key == 'opened':             # <<<<<<<<<<<<<<
  *             return self.info.status.opened
@@ -1225,7 +1225,7 @@ static PyObject *__pyx_pf_9_readtags_5CTags___getitem(PyObject *__pyx_v_self, Py
  *             return self.info.program.url
  *         if key == 'version':             # <<<<<<<<<<<<<<
  *             return self.info.program.version
- * 
+ *
  */
   __pyx_1 = PyObject_RichCompare(__pyx_v_key, __pyx_kp_21, Py_EQ); if (unlikely(!__pyx_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 92; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_2 = __Pyx_PyObject_IsTrue(__pyx_1); if (unlikely(__pyx_2 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 92; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -1236,8 +1236,8 @@ static PyObject *__pyx_pf_9_readtags_5CTags___getitem(PyObject *__pyx_v_self, Py
  *             return self.info.program.url
  *         if key == 'version':
  *             return self.info.program.version             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
     __pyx_1 = __Pyx_PyBytes_FromString(((struct __pyx_obj_9_readtags_CTags *)__pyx_v_self)->info.program.version); if (unlikely(!__pyx_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 93; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __pyx_r = __pyx_1;
@@ -1258,11 +1258,11 @@ static PyObject *__pyx_pf_9_readtags_5CTags___getitem(PyObject *__pyx_v_self, Py
 }
 
 /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":96
- * 
- * 
+ *
+ *
  *     def open(self, filepath):             # <<<<<<<<<<<<<<
  *         self.file = ctagsOpen(filepath, &self.info)
- * 
+ *
  */
 
 static PyObject *__pyx_pf_9_readtags_5CTags_open(PyObject *__pyx_v_self, PyObject *__pyx_v_filepath); /*proto*/
@@ -1274,10 +1274,10 @@ static PyObject *__pyx_pf_9_readtags_5CTags_open(PyObject *__pyx_v_self, PyObjec
   PyObject *__pyx_4 = 0;
 
   /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":97
- * 
+ *
  *     def open(self, filepath):
  *         self.file = ctagsOpen(filepath, &self.info)             # <<<<<<<<<<<<<<
- * 
+ *
  *         if not self.info.status.opened:
  */
   __pyx_1 = __Pyx_PyBytes_AsString(__pyx_v_filepath); if (unlikely((!__pyx_1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 97; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -1285,19 +1285,19 @@ static PyObject *__pyx_pf_9_readtags_5CTags_open(PyObject *__pyx_v_self, PyObjec
 
   /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":99
  *         self.file = ctagsOpen(filepath, &self.info)
- * 
+ *
  *         if not self.info.status.opened:             # <<<<<<<<<<<<<<
  *             raise Exception('Invalid tag file')
- * 
+ *
  */
   __pyx_2 = (!((struct __pyx_obj_9_readtags_CTags *)__pyx_v_self)->info.status.opened);
   if (__pyx_2) {
 
     /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":100
- * 
+ *
  *         if not self.info.status.opened:
  *             raise Exception('Invalid tag file')             # <<<<<<<<<<<<<<
- * 
+ *
  *     def setSortType(self, tagSortType type):
  */
     __pyx_3 = PyTuple_New(1); if (unlikely(!__pyx_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 100; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -1325,10 +1325,10 @@ static PyObject *__pyx_pf_9_readtags_5CTags_open(PyObject *__pyx_v_self, PyObjec
 
 /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":102
  *             raise Exception('Invalid tag file')
- * 
+ *
  *     def setSortType(self, tagSortType type):             # <<<<<<<<<<<<<<
  *         return ctagsSetSortType(self.file, type)
- * 
+ *
  */
 
 static PyObject *__pyx_pf_9_readtags_5CTags_setSortType(PyObject *__pyx_v_self, PyObject *__pyx_arg_type); /*proto*/
@@ -1346,10 +1346,10 @@ static PyObject *__pyx_pf_9_readtags_5CTags_setSortType(PyObject *__pyx_v_self, 
   __pyx_L4:;
 
   /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":103
- * 
+ *
  *     def setSortType(self, tagSortType type):
  *         return ctagsSetSortType(self.file, type)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def first(self, TagEntry entry=None):
  */
   __pyx_1 = PyInt_FromLong(tagsSetSortType(((struct __pyx_obj_9_readtags_CTags *)__pyx_v_self)->file, __pyx_v_type)); if (unlikely(!__pyx_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 103; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -1369,7 +1369,7 @@ static PyObject *__pyx_pf_9_readtags_5CTags_setSortType(PyObject *__pyx_v_self, 
 
 /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":105
  *         return ctagsSetSortType(self.file, type)
- * 
+ *
  *     def first(self, TagEntry entry=None):             # <<<<<<<<<<<<<<
  *         if entry is None:
  *             entry = TagEntry()
@@ -1400,11 +1400,11 @@ static PyObject *__pyx_pf_9_readtags_5CTags_first(PyObject *__pyx_v_self, PyObje
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_entry), __pyx_ptype_9_readtags_TagEntry, 1, "entry", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 105; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":106
- * 
+ *
  *     def first(self, TagEntry entry=None):
  *         if entry is None:             # <<<<<<<<<<<<<<
  *             entry = TagEntry()
- * 
+ *
  */
   __pyx_1 = (((PyObject *)__pyx_v_entry) == Py_None);
   if (__pyx_1) {
@@ -1413,7 +1413,7 @@ static PyObject *__pyx_pf_9_readtags_5CTags_first(PyObject *__pyx_v_self, PyObje
  *     def first(self, TagEntry entry=None):
  *         if entry is None:
  *             entry = TagEntry()             # <<<<<<<<<<<<<<
- * 
+ *
  *         if ctagsFirst(self.file, &entry.c_entry) == TagSuccess:
  */
     __pyx_2 = PyObject_Call(((PyObject*)__pyx_ptype_9_readtags_TagEntry), ((PyObject *)__pyx_empty_tuple), NULL); if (unlikely(!__pyx_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 107; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -1427,19 +1427,19 @@ static PyObject *__pyx_pf_9_readtags_5CTags_first(PyObject *__pyx_v_self, PyObje
 
   /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":109
  *             entry = TagEntry()
- * 
+ *
  *         if ctagsFirst(self.file, &entry.c_entry) == TagSuccess:             # <<<<<<<<<<<<<<
  *             return entry
- * 
+ *
  */
   __pyx_1 = (tagsFirst(((struct __pyx_obj_9_readtags_CTags *)__pyx_v_self)->file, (&__pyx_v_entry->c_entry)) == TagSuccess);
   if (__pyx_1) {
 
     /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":110
- * 
+ *
  *         if ctagsFirst(self.file, &entry.c_entry) == TagSuccess:
  *             return entry             # <<<<<<<<<<<<<<
- * 
+ *
  *         return None
  */
     Py_INCREF(((PyObject *)__pyx_v_entry));
@@ -1451,9 +1451,9 @@ static PyObject *__pyx_pf_9_readtags_5CTags_first(PyObject *__pyx_v_self, PyObje
 
   /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":112
  *             return entry
- * 
+ *
  *         return None             # <<<<<<<<<<<<<<
- * 
+ *
  *     def find(self, TagEntry entry, char* name, int options):
  */
   Py_INCREF(Py_None);
@@ -1473,10 +1473,10 @@ static PyObject *__pyx_pf_9_readtags_5CTags_first(PyObject *__pyx_v_self, PyObje
 
 /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":114
  *         return None
- * 
+ *
  *     def find(self, TagEntry entry, char* name, int options):             # <<<<<<<<<<<<<<
  *         return ctagsFind(self.file, &entry.c_entry, name, options)
- * 
+ *
  */
 
 static PyObject *__pyx_pf_9_readtags_5CTags_find(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
@@ -1503,10 +1503,10 @@ static PyObject *__pyx_pf_9_readtags_5CTags_find(PyObject *__pyx_v_self, PyObjec
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_entry), __pyx_ptype_9_readtags_TagEntry, 1, "entry", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 114; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":115
- * 
+ *
  *     def find(self, TagEntry entry, char* name, int options):
  *         return ctagsFind(self.file, &entry.c_entry, name, options)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def findNext(self, TagEntry entry):
  */
   __pyx_1 = PyInt_FromLong(tagsFind(((struct __pyx_obj_9_readtags_CTags *)__pyx_v_self)->file, (&__pyx_v_entry->c_entry), __pyx_v_name, __pyx_v_options)); if (unlikely(!__pyx_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 115; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -1526,10 +1526,10 @@ static PyObject *__pyx_pf_9_readtags_5CTags_find(PyObject *__pyx_v_self, PyObjec
 
 /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":117
  *         return ctagsFind(self.file, &entry.c_entry, name, options)
- * 
+ *
  *     def findNext(self, TagEntry entry):             # <<<<<<<<<<<<<<
  *         return ctagsFindNext(self.file, &entry.c_entry)
- * 
+ *
  */
 
 static PyObject *__pyx_pf_9_readtags_5CTags_findNext(PyObject *__pyx_v_self, PyObject *__pyx_v_entry); /*proto*/
@@ -1539,10 +1539,10 @@ static PyObject *__pyx_pf_9_readtags_5CTags_findNext(PyObject *__pyx_v_self, PyO
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_entry), __pyx_ptype_9_readtags_TagEntry, 1, "entry", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 117; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":118
- * 
+ *
  *     def findNext(self, TagEntry entry):
  *         return ctagsFindNext(self.file, &entry.c_entry)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def next(self, TagEntry entry):
  */
   __pyx_1 = PyInt_FromLong(tagsFindNext(((struct __pyx_obj_9_readtags_CTags *)__pyx_v_self)->file, (&((struct __pyx_obj_9_readtags_TagEntry *)__pyx_v_entry)->c_entry))); if (unlikely(!__pyx_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 118; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -1562,10 +1562,10 @@ static PyObject *__pyx_pf_9_readtags_5CTags_findNext(PyObject *__pyx_v_self, PyO
 
 /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":120
  *         return ctagsFindNext(self.file, &entry.c_entry)
- * 
+ *
  *     def next(self, TagEntry entry):             # <<<<<<<<<<<<<<
  *         return ctagsNext(self.file, &entry.c_entry)
- * 
+ *
  */
 
 static PyObject *__pyx_pf_9_readtags_5CTags_next(PyObject *__pyx_v_self, PyObject *__pyx_v_entry); /*proto*/
@@ -1575,10 +1575,10 @@ static PyObject *__pyx_pf_9_readtags_5CTags_next(PyObject *__pyx_v_self, PyObjec
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_entry), __pyx_ptype_9_readtags_TagEntry, 1, "entry", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 120; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":121
- * 
+ *
  *     def next(self, TagEntry entry):
  *         return ctagsNext(self.file, &entry.c_entry)             # <<<<<<<<<<<<<<
- * 
+ *
  */
   __pyx_1 = PyInt_FromLong(tagsNext(((struct __pyx_obj_9_readtags_CTags *)__pyx_v_self)->file, (&((struct __pyx_obj_9_readtags_TagEntry *)__pyx_v_entry)->c_entry))); if (unlikely(!__pyx_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 121; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_r = __pyx_1;
@@ -2064,10 +2064,10 @@ PyMODINIT_FUNC PyInit__readtags(void)
 
   /* "/Users/hai/Documents/workspace/pyctags/src/_readtags.pyx":120
  *         return ctagsFindNext(self.file, &entry.c_entry)
- * 
+ *
  *     def next(self, TagEntry entry):             # <<<<<<<<<<<<<<
  *         return ctagsNext(self.file, &entry.c_entry)
- * 
+ *
  */
   #if PY_MAJOR_VERSION < 3
   return;
