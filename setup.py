@@ -6,8 +6,8 @@ file is a natural fit in extending an application's capability to examine source
 code.
 
 This project wrote a wrapper for readtags.c. I have been using the package in 
-couple of projects and it has been shown that it could easily handle hundreds of
-C/C++ source files.
+a couple of projects and it has been shown that it could easily handle hundreds 
+source files.
 """
 
 classifiers = """\
