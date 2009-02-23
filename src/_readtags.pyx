@@ -64,6 +64,8 @@ cdef class TagEntry:
         elif key == 'file':
             return self.c_entry.file 
         elif key == 'pattern':
+            if self.c_entry.pattern == NULL:
+                return None
             return self.c_entry.address.pattern 
         elif key == 'lineNumber':
             return self.c_entry.address.lineNumber 

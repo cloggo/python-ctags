@@ -12,16 +12,15 @@ entry = TagEntry()
 status = tagFile.setSortType(ctags.TAG_SORTED)
 status = tagFile.first(entry)
 
-print tagFile['format']
-print tagFile['author']
 print tagFile['name']
+print tagFile['author']
+print tagFile['format']
 if status:
     print entry['name']
-    print entry['pattern']
     print entry['kind']
-    print entry['lineNumber']
     
-if tagFile.find(entry, 'findTag', ctags.TAG_PARTIALMATCH):
+if tagFile.find(entry, 'findtag', ctags.TAG_PARTIALMATCH | ctags.TAG_IGNORECASE):
     print 'found'
     print entry['lineNumber']
     print entry['pattern']
+    print entry['kind']
