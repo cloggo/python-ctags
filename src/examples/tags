@@ -1,0 +1,386 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6b1	//
+DL_EXPORT	../_readtags.c	10;"	kind:macro	line:10	language:C	file:
+EmptyString	../readtags.c	/^const char *const EmptyString = "";$/;"	kind:variable	line:91	language:C
+INLINE	../_readtags.c	116;"	kind:macro	line:116	language:C	file:
+INLINE	../_readtags.c	118;"	kind:macro	line:118	language:C	file:
+INLINE	../_readtags.c	120;"	kind:macro	line:120	language:C	file:
+JUMP_BACK	../readtags.c	561;"	kind:macro	line:561	language:C	file:
+METH_COEXIST	../_readtags.c	13;"	kind:macro	line:13	language:C	file:
+PY_LONG_LONG	../_readtags.c	7;"	kind:macro	line:7	language:C	file:
+PY_SSIZE_T_CLEAN	../_readtags.c	3;"	kind:macro	line:3	language:C	file:
+PY_SSIZE_T_MAX	../_readtags.c	17;"	kind:macro	line:17	language:C	file:
+PY_SSIZE_T_MIN	../_readtags.c	18;"	kind:macro	line:18	language:C	file:
+ProgramName	../readtags.c	/^static const char *ProgramName;$/;"	kind:variable	line:790	language:C	file:
+PseudoTagPrefix	../readtags.c	/^const char *const PseudoTagPrefix = "!_";$/;"	kind:variable	line:92	language:C
+PyBUF_ANY_CONTIGUOUS	../_readtags.c	54;"	kind:macro	line:54	language:C	file:
+PyBUF_C_CONTIGUOUS	../_readtags.c	52;"	kind:macro	line:52	language:C	file:
+PyBUF_FORMAT	../_readtags.c	49;"	kind:macro	line:49	language:C	file:
+PyBUF_F_CONTIGUOUS	../_readtags.c	53;"	kind:macro	line:53	language:C	file:
+PyBUF_INDIRECT	../_readtags.c	55;"	kind:macro	line:55	language:C	file:
+PyBUF_LOCK	../_readtags.c	48;"	kind:macro	line:48	language:C	file:
+PyBUF_ND	../_readtags.c	50;"	kind:macro	line:50	language:C	file:
+PyBUF_SIMPLE	../_readtags.c	46;"	kind:macro	line:46	language:C	file:
+PyBUF_STRIDES	../_readtags.c	51;"	kind:macro	line:51	language:C	file:
+PyBUF_WRITABLE	../_readtags.c	47;"	kind:macro	line:47	language:C	file:
+PyBaseString_Type	../_readtags.c	71;"	kind:macro	line:71	language:C	file:
+PyBytes_Type	../_readtags.c	89;"	kind:macro	line:89	language:C	file:
+PyIndex_Check	../_readtags.c	22;"	kind:macro	line:22	language:C	file:
+PyInt_AS_LONG	../_readtags.c	82;"	kind:macro	line:82	language:C	file:
+PyInt_AsLong	../_readtags.c	81;"	kind:macro	line:81	language:C	file:
+PyInt_AsSsize_t	../_readtags.c	20;"	kind:macro	line:20	language:C	file:
+PyInt_AsSsize_t	../_readtags.c	83;"	kind:macro	line:83	language:C	file:
+PyInt_AsUnsignedLongLongMask	../_readtags.c	85;"	kind:macro	line:85	language:C	file:
+PyInt_AsUnsignedLongMask	../_readtags.c	84;"	kind:macro	line:84	language:C	file:
+PyInt_Check	../_readtags.c	74;"	kind:macro	line:74	language:C	file:
+PyInt_CheckExact	../_readtags.c	75;"	kind:macro	line:75	language:C	file:
+PyInt_FromLong	../_readtags.c	78;"	kind:macro	line:78	language:C	file:
+PyInt_FromSize_t	../_readtags.c	79;"	kind:macro	line:79	language:C	file:
+PyInt_FromSsize_t	../_readtags.c	19;"	kind:macro	line:19	language:C	file:
+PyInt_FromSsize_t	../_readtags.c	80;"	kind:macro	line:80	language:C	file:
+PyInt_FromString	../_readtags.c	76;"	kind:macro	line:76	language:C	file:
+PyInt_FromUnicode	../_readtags.c	77;"	kind:macro	line:77	language:C	file:
+PyInt_Type	../_readtags.c	73;"	kind:macro	line:73	language:C	file:
+PyMethod_New	../_readtags.c	92;"	kind:macro	line:92	language:C	file:
+PyNumber_Index	../_readtags.c	21;"	kind:macro	line:21	language:C	file:
+PyString_Type	../_readtags.c	72;"	kind:macro	line:72	language:C	file:
+PyType_Modified	../_readtags.c	30;"	kind:macro	line:30	language:C	file:
+PyVarObject_HEAD_INIT	../_readtags.c	28;"	kind:macro	line:28	language:C	file:
+Py_REFCNT	../_readtags.c	25;"	kind:macro	line:25	language:C	file:
+Py_SIZE	../_readtags.c	27;"	kind:macro	line:27	language:C	file:
+Py_TPFLAGS_CHECKTYPES	../_readtags.c	64;"	kind:macro	line:64	language:C	file:
+Py_TPFLAGS_HAVE_INDEX	../_readtags.c	65;"	kind:macro	line:65	language:C	file:
+Py_TPFLAGS_HAVE_NEWBUFFER	../_readtags.c	68;"	kind:macro	line:68	language:C	file:
+Py_TYPE	../_readtags.c	26;"	kind:macro	line:26	language:C	file:
+Py_buffer	../_readtags.c	/^  } Py_buffer;$/;"	kind:typedef	line:44	language:C	typeref:struct:__anon5	file:
+Py_ssize_t	../_readtags.c	/^  typedef int Py_ssize_t;$/;"	kind:typedef	line:16	language:C	file:
+READTAGS_H	../include/readtags.h	22;"	kind:macro	line:22	language:C++
+SortMethod	../readtags.c	/^static sortType SortMethod;$/;"	kind:variable	line:793	language:C	file:
+SortOverride	../readtags.c	/^static int SortOverride;$/;"	kind:variable	line:792	language:C	file:
+TAB	../readtags.c	26;"	kind:macro	line:26	language:C	file:
+TAG_FOLDSORTED	../include/readtags.h	/^	TAG_UNSORTED, TAG_SORTED, TAG_FOLDSORTED$/;"	kind:enumerator	line:34	language:C++	enum:__anon7
+TAG_FULLMATCH	../include/readtags.h	38;"	kind:macro	line:38	language:C++
+TAG_IGNORECASE	../include/readtags.h	42;"	kind:macro	line:42	language:C++
+TAG_OBSERVECASE	../include/readtags.h	41;"	kind:macro	line:41	language:C++
+TAG_PARTIALMATCH	../include/readtags.h	39;"	kind:macro	line:39	language:C++
+TAG_SORTED	../include/readtags.h	/^	TAG_UNSORTED, TAG_SORTED, TAG_FOLDSORTED$/;"	kind:enumerator	line:34	language:C++	enum:__anon7
+TAG_UNSORTED	../include/readtags.h	/^	TAG_UNSORTED, TAG_SORTED, TAG_FOLDSORTED$/;"	kind:enumerator	line:34	language:C++	enum:__anon7
+TagFailure	../include/readtags.h	/^typedef enum { TagFailure = 0, TagSuccess = 1 } tagResult;$/;"	kind:enumerator	line:48	language:C++	enum:__anon8
+TagFileName	../readtags.c	/^static const char *TagFileName = "tags";$/;"	kind:variable	line:789	language:C	file:
+TagSuccess	../include/readtags.h	/^typedef enum { TagFailure = 0, TagSuccess = 1 } tagResult;$/;"	kind:enumerator	line:48	language:C++	enum:__anon8
+Usage	../readtags.c	/^const char *const Usage =$/;"	kind:variable	line:868	language:C
+_USE_MATH_DEFINES	../_readtags.c	102;"	kind:macro	line:102	language:C	file:
+__PYX_EXTERN_C	../_readtags.c	105;"	kind:macro	line:105	language:C	file:
+__PYX_EXTERN_C	../_readtags.c	107;"	kind:macro	line:107	language:C	file:
+__PYX_HAVE_API___readtags	../_readtags.c	110;"	kind:macro	line:110	language:C	file:
+__Pyx_AddTraceback	../_readtags.c	/^static void __Pyx_AddTraceback(const char *funcname) {$/;"	kind:function	line:2558	language:C	file:	signature:(const char *funcname)
+__Pyx_ArgTypeTest	../_readtags.c	/^static int __Pyx_ArgTypeTest(PyObject *obj, PyTypeObject *type, int none_allowed,$/;"	kind:function	line:2407	language:C	file:	signature:(PyObject *obj, PyTypeObject *type, int none_allowed, const char *name, int exact)
+__Pyx_BUILTIN_MODULE_NAME	../_readtags.c	59;"	kind:macro	line:59	language:C	file:
+__Pyx_BUILTIN_MODULE_NAME	../_readtags.c	61;"	kind:macro	line:61	language:C	file:
+__Pyx_CheckKeywordStrings	../_readtags.c	/^static INLINE int __Pyx_CheckKeywordStrings($/;"	kind:function	line:2278	language:C	file:	signature:( PyObject *kwdict, const char* function_name, int kw_allowed)
+__Pyx_EndUnpack	../_readtags.c	/^static int __Pyx_EndUnpack(PyObject *iter) {$/;"	kind:function	line:2442	language:C	file:	signature:(PyObject *iter)
+__Pyx_ErrFetch	../_readtags.c	/^static INLINE void __Pyx_ErrFetch(PyObject **type, PyObject **value, PyObject **tb) {$/;"	kind:function	line:2542	language:C	file:	signature:(PyObject **type, PyObject **value, PyObject **tb)
+__Pyx_ErrRestore	../_readtags.c	/^static INLINE void __Pyx_ErrRestore(PyObject *type, PyObject *value, PyObject *tb) {$/;"	kind:function	line:2527	language:C	file:	signature:(PyObject *type, PyObject *value, PyObject *tb)
+__Pyx_GetName	../_readtags.c	/^static PyObject *__Pyx_GetName(PyObject *dict, PyObject *name) {$/;"	kind:function	line:2455	language:C	file:	signature:(PyObject *dict, PyObject *name)
+__Pyx_InitCachedBuiltins	../_readtags.c	/^static int __Pyx_InitCachedBuiltins(void) {$/;"	kind:function	line:2163	language:C	file:	signature:(void)
+__Pyx_InitGlobals	../_readtags.c	/^static int __Pyx_InitGlobals(void) {$/;"	kind:function	line:2170	language:C	file:	signature:(void)
+__Pyx_InitStrings	../_readtags.c	/^static int __Pyx_InitStrings(__Pyx_StringTabEntry *t) {$/;"	kind:function	line:2632	language:C	file:	signature:(__Pyx_StringTabEntry *t)
+__Pyx_ParseOptionalKeywords	../_readtags.c	/^static int __Pyx_ParseOptionalKeywords($/;"	kind:function	line:2325	language:C	file:	signature:( PyObject *kwds, PyObject **argnames[], PyObject *kwds2, PyObject *values[], Py_ssize_t num_pos_args, const char* function_name)
+__Pyx_PyBool_FromLong	../_readtags.c	140;"	kind:macro	line:140	language:C	file:
+__Pyx_PyBytes_AsString	../_readtags.c	134;"	kind:macro	line:134	language:C	file:
+__Pyx_PyBytes_AsString	../_readtags.c	137;"	kind:macro	line:137	language:C	file:
+__Pyx_PyBytes_FromString	../_readtags.c	133;"	kind:macro	line:133	language:C	file:
+__Pyx_PyBytes_FromString	../_readtags.c	136;"	kind:macro	line:136	language:C	file:
+__Pyx_PyNumber_Divide	../_readtags.c	86;"	kind:macro	line:86	language:C	file:
+__Pyx_PyNumber_Divide	../_readtags.c	88;"	kind:macro	line:88	language:C	file:
+__Pyx_PyObject_IsTrue	../_readtags.c	/^static INLINE int __Pyx_PyObject_IsTrue(PyObject* x) {$/;"	kind:function	line:2669	language:C	file:	signature:(PyObject* x)
+__Pyx_Raise	../_readtags.c	/^static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb) {$/;"	kind:function	line:2463	language:C	file:	signature:(PyObject *type, PyObject *value, PyObject *tb)
+__Pyx_RaiseArgtupleInvalid	../_readtags.c	/^static void __Pyx_RaiseArgtupleInvalid($/;"	kind:function	line:2248	language:C	file:	signature:( const char* func_name, int exact, Py_ssize_t num_min, Py_ssize_t num_max, Py_ssize_t num_found)
+__Pyx_RaiseDoubleKeywordsError	../_readtags.c	/^static void __Pyx_RaiseDoubleKeywordsError($/;"	kind:function	line:2312	language:C	file:	signature:( const char* func_name, PyObject* kw_name)
+__Pyx_StringTabEntry	../_readtags.c	/^typedef struct {PyObject **p; char *s; long n; char is_unicode; char intern; char is_identifier;} __Pyx_StringTabEntry; \/*proto*\/$/;"	kind:typedef	line:123	language:C	typeref:struct:__anon6	file:
+__Pyx_UnpackItem	../_readtags.c	/^static PyObject *__Pyx_UnpackItem(PyObject *iter, Py_ssize_t index) {$/;"	kind:function	line:2427	language:C	file:	signature:(PyObject *iter, Py_ssize_t index)
+__cdecl	../_readtags.c	99;"	kind:macro	line:99	language:C	file:
+__pyx_PyFloat_AsDouble	../_readtags.c	147;"	kind:macro	line:147	language:C	file:
+__pyx_PyIndex_AsSsize_t	../_readtags.c	/^static INLINE Py_ssize_t __pyx_PyIndex_AsSsize_t(PyObject* b) {$/;"	kind:function	line:2660	language:C	file:	signature:(PyObject* b)
+__pyx_PyInt_AsLong	../_readtags.c	146;"	kind:macro	line:146	language:C	file:
+__pyx_PyInt_AsLongLong	../_readtags.c	/^static INLINE PY_LONG_LONG __pyx_PyInt_AsLongLong(PyObject* x) {$/;"	kind:function	line:2675	language:C	file:	signature:(PyObject* x)
+__pyx_PyInt_AsUnsignedLongLong	../_readtags.c	/^static INLINE unsigned PY_LONG_LONG __pyx_PyInt_AsUnsignedLongLong(PyObject* x) {$/;"	kind:function	line:2691	language:C	file:	signature:(PyObject* x)
+__pyx_PyInt_char	../_readtags.c	/^static INLINE char __pyx_PyInt_char(PyObject* x) {$/;"	kind:function	line:2743	language:C	file:	signature:(PyObject* x)
+__pyx_PyInt_int	../_readtags.c	/^static INLINE int __pyx_PyInt_int(PyObject* x) {$/;"	kind:function	line:2773	language:C	file:	signature:(PyObject* x)
+__pyx_PyInt_long	../_readtags.c	/^static INLINE long __pyx_PyInt_long(PyObject* x) {$/;"	kind:function	line:2788	language:C	file:	signature:(PyObject* x)
+__pyx_PyInt_long_double	../_readtags.c	/^static INLINE long double __pyx_PyInt_long_double(PyObject* x) {$/;"	kind:function	line:2863	language:C	file:	signature:(PyObject* x)
+__pyx_PyInt_short	../_readtags.c	/^static INLINE short __pyx_PyInt_short(PyObject* x) {$/;"	kind:function	line:2758	language:C	file:	signature:(PyObject* x)
+__pyx_PyInt_signed_char	../_readtags.c	/^static INLINE signed char __pyx_PyInt_signed_char(PyObject* x) {$/;"	kind:function	line:2803	language:C	file:	signature:(PyObject* x)
+__pyx_PyInt_signed_int	../_readtags.c	/^static INLINE signed int __pyx_PyInt_signed_int(PyObject* x) {$/;"	kind:function	line:2833	language:C	file:	signature:(PyObject* x)
+__pyx_PyInt_signed_long	../_readtags.c	/^static INLINE signed long __pyx_PyInt_signed_long(PyObject* x) {$/;"	kind:function	line:2848	language:C	file:	signature:(PyObject* x)
+__pyx_PyInt_signed_short	../_readtags.c	/^static INLINE signed short __pyx_PyInt_signed_short(PyObject* x) {$/;"	kind:function	line:2818	language:C	file:	signature:(PyObject* x)
+__pyx_PyInt_unsigned_char	../_readtags.c	/^static INLINE unsigned char __pyx_PyInt_unsigned_char(PyObject* x) {$/;"	kind:function	line:2713	language:C	file:	signature:(PyObject* x)
+__pyx_PyInt_unsigned_short	../_readtags.c	/^static INLINE unsigned short __pyx_PyInt_unsigned_short(PyObject* x) {$/;"	kind:function	line:2728	language:C	file:	signature:(PyObject* x)
+__pyx_b	../_readtags.c	/^static PyObject *__pyx_b;$/;"	kind:variable	line:175	language:C	file:
+__pyx_builtin_Exception	../_readtags.c	/^static PyObject *__pyx_builtin_Exception;$/;"	kind:variable	line:330	language:C	file:
+__pyx_cfilenm	../_readtags.c	/^static const char * __pyx_cfilenm= __FILE__;$/;"	kind:variable	line:179	language:C	file:
+__pyx_clineno	../_readtags.c	/^static int __pyx_clineno = 0;$/;"	kind:variable	line:178	language:C	file:
+__pyx_empty_tuple	../_readtags.c	/^static PyObject *__pyx_empty_tuple;$/;"	kind:variable	line:176	language:C	file:
+__pyx_f	../_readtags.c	/^static const char **__pyx_f;$/;"	kind:variable	line:181	language:C	file:
+__pyx_filename	../_readtags.c	/^static const char *__pyx_filename;$/;"	kind:variable	line:180	language:C	file:
+__pyx_filenames	../_readtags.c	/^static const char *__pyx_filenames[] = {$/;"	kind:variable	line:2238	language:C	file:
+__pyx_init_filenames	../_readtags.c	/^static void __pyx_init_filenames(void) {$/;"	kind:function	line:2244	language:C	file:	signature:(void)
+__pyx_k_1	../_readtags.c	/^static char __pyx_k_1[] = "name";$/;"	kind:variable	line:284	language:C	file:
+__pyx_k_10	../_readtags.c	/^static char __pyx_k_10[] = "pattern";$/;"	kind:variable	line:304	language:C	file:
+__pyx_k_11	../_readtags.c	/^static char __pyx_k_11[] = "lineNumber";$/;"	kind:variable	line:306	language:C	file:
+__pyx_k_12	../_readtags.c	/^static char __pyx_k_12[] = "kind";$/;"	kind:variable	line:308	language:C	file:
+__pyx_k_13	../_readtags.c	/^static char __pyx_k_13[] = "fileScope";$/;"	kind:variable	line:310	language:C	file:
+__pyx_k_14	../_readtags.c	/^static char __pyx_k_14[] = "opened";$/;"	kind:variable	line:312	language:C	file:
+__pyx_k_15	../_readtags.c	/^static char __pyx_k_15[] = "error_number";$/;"	kind:variable	line:314	language:C	file:
+__pyx_k_16	../_readtags.c	/^static char __pyx_k_16[] = "format";$/;"	kind:variable	line:316	language:C	file:
+__pyx_k_17	../_readtags.c	/^static char __pyx_k_17[] = "sort";$/;"	kind:variable	line:318	language:C	file:
+__pyx_k_18	../_readtags.c	/^static char __pyx_k_18[] = "author";$/;"	kind:variable	line:320	language:C	file:
+__pyx_k_19	../_readtags.c	/^static char __pyx_k_19[] = "";$/;"	kind:variable	line:335	language:C	file:
+__pyx_k_2	../_readtags.c	/^static char __pyx_k_2[] = "file";$/;"	kind:variable	line:286	language:C	file:
+__pyx_k_20	../_readtags.c	/^static char __pyx_k_20[] = "name";$/;"	kind:variable	line:322	language:C	file:
+__pyx_k_21	../_readtags.c	/^static char __pyx_k_21[] = "";$/;"	kind:variable	line:336	language:C	file:
+__pyx_k_22	../_readtags.c	/^static char __pyx_k_22[] = "url";$/;"	kind:variable	line:324	language:C	file:
+__pyx_k_23	../_readtags.c	/^static char __pyx_k_23[] = "";$/;"	kind:variable	line:337	language:C	file:
+__pyx_k_24	../_readtags.c	/^static char __pyx_k_24[] = "version";$/;"	kind:variable	line:326	language:C	file:
+__pyx_k_25	../_readtags.c	/^static char __pyx_k_25[] = "";$/;"	kind:variable	line:338	language:C	file:
+__pyx_k_26	../_readtags.c	/^static char __pyx_k_26[] = "Invalid tag file";$/;"	kind:variable	line:340	language:C	file:
+__pyx_k_3	../_readtags.c	/^static char __pyx_k_3[] = "pattern";$/;"	kind:variable	line:288	language:C	file:
+__pyx_k_4	../_readtags.c	/^static char __pyx_k_4[] = "lineNumber";$/;"	kind:variable	line:290	language:C	file:
+__pyx_k_5	../_readtags.c	/^static char __pyx_k_5[] = "kind";$/;"	kind:variable	line:292	language:C	file:
+__pyx_k_6	../_readtags.c	/^static char __pyx_k_6[] = "fileScope";$/;"	kind:variable	line:294	language:C	file:
+__pyx_k_7	../_readtags.c	/^static char __pyx_k_7[] = "fields";$/;"	kind:variable	line:296	language:C	file:
+__pyx_k_8	../_readtags.c	/^static char __pyx_k_8[] = "name";$/;"	kind:variable	line:300	language:C	file:
+__pyx_k_9	../_readtags.c	/^static char __pyx_k_9[] = "file";$/;"	kind:variable	line:302	language:C	file:
+__pyx_k_Exception	../_readtags.c	/^static char __pyx_k_Exception[] = "Exception";$/;"	kind:variable	line:328	language:C	file:
+__pyx_k___cinit__	../_readtags.c	/^static char __pyx_k___cinit__[] = "__cinit__";$/;"	kind:variable	line:250	language:C	file:
+__pyx_k___dealloc__	../_readtags.c	/^static char __pyx_k___dealloc__[] = "__dealloc__";$/;"	kind:variable	line:256	language:C	file:
+__pyx_k___getitem__	../_readtags.c	/^static char __pyx_k___getitem__[] = "__getitem__";$/;"	kind:variable	line:254	language:C	file:
+__pyx_k___setitem__	../_readtags.c	/^static char __pyx_k___setitem__[] = "__setitem__";$/;"	kind:variable	line:252	language:C	file:
+__pyx_k_entry	../_readtags.c	/^static char __pyx_k_entry[] = "entry";$/;"	kind:variable	line:278	language:C	file:
+__pyx_k_filepath	../_readtags.c	/^static char __pyx_k_filepath[] = "filepath";$/;"	kind:variable	line:274	language:C	file:
+__pyx_k_find	../_readtags.c	/^static char __pyx_k_find[] = "find";$/;"	kind:variable	line:264	language:C	file:
+__pyx_k_findNext	../_readtags.c	/^static char __pyx_k_findNext[] = "findNext";$/;"	kind:variable	line:266	language:C	file:
+__pyx_k_first	../_readtags.c	/^static char __pyx_k_first[] = "first";$/;"	kind:variable	line:262	language:C	file:
+__pyx_k_item	../_readtags.c	/^static char __pyx_k_item[] = "item";$/;"	kind:variable	line:272	language:C	file:
+__pyx_k_iteritems	../_readtags.c	/^static char __pyx_k_iteritems[] = "iteritems";$/;"	kind:variable	line:298	language:C	file:
+__pyx_k_key	../_readtags.c	/^static char __pyx_k_key[] = "key";$/;"	kind:variable	line:270	language:C	file:
+__pyx_k_name	../_readtags.c	/^static char __pyx_k_name[] = "name";$/;"	kind:variable	line:280	language:C	file:
+__pyx_k_next	../_readtags.c	/^static char __pyx_k_next[] = "next";$/;"	kind:variable	line:268	language:C	file:
+__pyx_k_open	../_readtags.c	/^static char __pyx_k_open[] = "open";$/;"	kind:variable	line:258	language:C	file:
+__pyx_k_options	../_readtags.c	/^static char __pyx_k_options[] = "options";$/;"	kind:variable	line:282	language:C	file:
+__pyx_k_setSortType	../_readtags.c	/^static char __pyx_k_setSortType[] = "setSortType";$/;"	kind:variable	line:260	language:C	file:
+__pyx_k_type	../_readtags.c	/^static char __pyx_k_type[] = "type";$/;"	kind:variable	line:276	language:C	file:
+__pyx_kp_1	../_readtags.c	/^static PyObject *__pyx_kp_1;$/;"	kind:variable	line:285	language:C	file:
+__pyx_kp_10	../_readtags.c	/^static PyObject *__pyx_kp_10;$/;"	kind:variable	line:305	language:C	file:
+__pyx_kp_11	../_readtags.c	/^static PyObject *__pyx_kp_11;$/;"	kind:variable	line:307	language:C	file:
+__pyx_kp_12	../_readtags.c	/^static PyObject *__pyx_kp_12;$/;"	kind:variable	line:309	language:C	file:
+__pyx_kp_13	../_readtags.c	/^static PyObject *__pyx_kp_13;$/;"	kind:variable	line:311	language:C	file:
+__pyx_kp_14	../_readtags.c	/^static PyObject *__pyx_kp_14;$/;"	kind:variable	line:313	language:C	file:
+__pyx_kp_15	../_readtags.c	/^static PyObject *__pyx_kp_15;$/;"	kind:variable	line:315	language:C	file:
+__pyx_kp_16	../_readtags.c	/^static PyObject *__pyx_kp_16;$/;"	kind:variable	line:317	language:C	file:
+__pyx_kp_17	../_readtags.c	/^static PyObject *__pyx_kp_17;$/;"	kind:variable	line:319	language:C	file:
+__pyx_kp_18	../_readtags.c	/^static PyObject *__pyx_kp_18;$/;"	kind:variable	line:321	language:C	file:
+__pyx_kp_19	../_readtags.c	/^static PyObject *__pyx_kp_19;$/;"	kind:variable	line:331	language:C	file:
+__pyx_kp_2	../_readtags.c	/^static PyObject *__pyx_kp_2;$/;"	kind:variable	line:287	language:C	file:
+__pyx_kp_20	../_readtags.c	/^static PyObject *__pyx_kp_20;$/;"	kind:variable	line:323	language:C	file:
+__pyx_kp_21	../_readtags.c	/^static PyObject *__pyx_kp_21;$/;"	kind:variable	line:332	language:C	file:
+__pyx_kp_22	../_readtags.c	/^static PyObject *__pyx_kp_22;$/;"	kind:variable	line:325	language:C	file:
+__pyx_kp_23	../_readtags.c	/^static PyObject *__pyx_kp_23;$/;"	kind:variable	line:333	language:C	file:
+__pyx_kp_24	../_readtags.c	/^static PyObject *__pyx_kp_24;$/;"	kind:variable	line:327	language:C	file:
+__pyx_kp_25	../_readtags.c	/^static PyObject *__pyx_kp_25;$/;"	kind:variable	line:334	language:C	file:
+__pyx_kp_26	../_readtags.c	/^static PyObject *__pyx_kp_26;$/;"	kind:variable	line:339	language:C	file:
+__pyx_kp_3	../_readtags.c	/^static PyObject *__pyx_kp_3;$/;"	kind:variable	line:289	language:C	file:
+__pyx_kp_4	../_readtags.c	/^static PyObject *__pyx_kp_4;$/;"	kind:variable	line:291	language:C	file:
+__pyx_kp_5	../_readtags.c	/^static PyObject *__pyx_kp_5;$/;"	kind:variable	line:293	language:C	file:
+__pyx_kp_6	../_readtags.c	/^static PyObject *__pyx_kp_6;$/;"	kind:variable	line:295	language:C	file:
+__pyx_kp_7	../_readtags.c	/^static PyObject *__pyx_kp_7;$/;"	kind:variable	line:297	language:C	file:
+__pyx_kp_8	../_readtags.c	/^static PyObject *__pyx_kp_8;$/;"	kind:variable	line:301	language:C	file:
+__pyx_kp_9	../_readtags.c	/^static PyObject *__pyx_kp_9;$/;"	kind:variable	line:303	language:C	file:
+__pyx_kp_Exception	../_readtags.c	/^static PyObject *__pyx_kp_Exception;$/;"	kind:variable	line:329	language:C	file:
+__pyx_kp___cinit__	../_readtags.c	/^static PyObject *__pyx_kp___cinit__;$/;"	kind:variable	line:251	language:C	file:
+__pyx_kp___dealloc__	../_readtags.c	/^static PyObject *__pyx_kp___dealloc__;$/;"	kind:variable	line:257	language:C	file:
+__pyx_kp___getitem__	../_readtags.c	/^static PyObject *__pyx_kp___getitem__;$/;"	kind:variable	line:255	language:C	file:
+__pyx_kp___setitem__	../_readtags.c	/^static PyObject *__pyx_kp___setitem__;$/;"	kind:variable	line:253	language:C	file:
+__pyx_kp_entry	../_readtags.c	/^static PyObject *__pyx_kp_entry;$/;"	kind:variable	line:279	language:C	file:
+__pyx_kp_filepath	../_readtags.c	/^static PyObject *__pyx_kp_filepath;$/;"	kind:variable	line:275	language:C	file:
+__pyx_kp_find	../_readtags.c	/^static PyObject *__pyx_kp_find;$/;"	kind:variable	line:265	language:C	file:
+__pyx_kp_findNext	../_readtags.c	/^static PyObject *__pyx_kp_findNext;$/;"	kind:variable	line:267	language:C	file:
+__pyx_kp_first	../_readtags.c	/^static PyObject *__pyx_kp_first;$/;"	kind:variable	line:263	language:C	file:
+__pyx_kp_item	../_readtags.c	/^static PyObject *__pyx_kp_item;$/;"	kind:variable	line:273	language:C	file:
+__pyx_kp_iteritems	../_readtags.c	/^static PyObject *__pyx_kp_iteritems;$/;"	kind:variable	line:299	language:C	file:
+__pyx_kp_key	../_readtags.c	/^static PyObject *__pyx_kp_key;$/;"	kind:variable	line:271	language:C	file:
+__pyx_kp_name	../_readtags.c	/^static PyObject *__pyx_kp_name;$/;"	kind:variable	line:281	language:C	file:
+__pyx_kp_next	../_readtags.c	/^static PyObject *__pyx_kp_next;$/;"	kind:variable	line:269	language:C	file:
+__pyx_kp_open	../_readtags.c	/^static PyObject *__pyx_kp_open;$/;"	kind:variable	line:259	language:C	file:
+__pyx_kp_options	../_readtags.c	/^static PyObject *__pyx_kp_options;$/;"	kind:variable	line:283	language:C	file:
+__pyx_kp_setSortType	../_readtags.c	/^static PyObject *__pyx_kp_setSortType;$/;"	kind:variable	line:261	language:C	file:
+__pyx_kp_type	../_readtags.c	/^static PyObject *__pyx_kp_type;$/;"	kind:variable	line:277	language:C	file:
+__pyx_lineno	../_readtags.c	/^static int __pyx_lineno;$/;"	kind:variable	line:177	language:C	file:
+__pyx_m	../_readtags.c	/^static PyObject *__pyx_m;$/;"	kind:variable	line:174	language:C	file:
+__pyx_mdoc	../_readtags.c	/^static char __pyx_mdoc[] = "\\nCopyright (C) 2008 Aaron Diep <ahkdiep@gmail.com>\\n\\nThis file is part of Python-Ctags.\\n\\nPython-Ctags is free software: you can redistribute it and\/or modify\\nit under the terms of the GNU General Public License as published by\\nthe Free Software Foundation, either version 3 of the License, or\\n(at your option) any later version.\\n\\nPython-Ctags is distributed in the hope that it will be useful,\\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\\nGNU General Public License for more details.\\n\\nYou should have received a copy of the GNU General Public License\\nalong with Python-Ctags.  If not, see <http:\/\/www.gnu.org\/licenses\/>.\\n";$/;"	kind:variable	line:183	language:C	file:
+__pyx_methods	../_readtags.c	/^static struct PyMethodDef __pyx_methods[] = {$/;"	kind:variable	line:2095	language:C	typeref:struct:PyMethodDef	file:
+__pyx_methods_9_readtags_CTags	../_readtags.c	/^static struct PyMethodDef __pyx_methods_9_readtags_CTags[] = {$/;"	kind:variable	line:1942	language:C	typeref:struct:PyMethodDef	file:
+__pyx_methods_9_readtags_TagEntry	../_readtags.c	/^static struct PyMethodDef __pyx_methods_9_readtags_TagEntry[] = {$/;"	kind:variable	line:1766	language:C	typeref:struct:PyMethodDef	file:
+__pyx_moduledef	../_readtags.c	/^static struct PyModuleDef __pyx_moduledef = {$/;"	kind:variable	line:2102	language:C	typeref:struct:PyModuleDef	file:
+__pyx_mp_ass_subscript_9_readtags_TagEntry	../_readtags.c	/^static int __pyx_mp_ass_subscript_9_readtags_TagEntry(PyObject *o, PyObject *i, PyObject *v) {$/;"	kind:function	line:1755	language:C	file:	signature:(PyObject *o, PyObject *i, PyObject *v)
+__pyx_obj_9_readtags_CTags	../_readtags.c	/^struct __pyx_obj_9_readtags_CTags {$/;"	kind:struct	line:225	language:C	file:
+__pyx_obj_9_readtags_TagEntry	../_readtags.c	/^struct __pyx_obj_9_readtags_TagEntry {$/;"	kind:struct	line:239	language:C	file:
+__pyx_pf_9_readtags_5CTags___cinit__	../_readtags.c	/^static int __pyx_pf_9_readtags_5CTags___cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {$/;"	kind:function	line:992	language:C	file:	signature:(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds)
+__pyx_pf_9_readtags_5CTags___dealloc__	../_readtags.c	/^static void __pyx_pf_9_readtags_5CTags___dealloc__(PyObject *__pyx_v_self) {$/;"	kind:function	line:1067	language:C	file:	signature:(PyObject *__pyx_v_self)
+__pyx_pf_9_readtags_5CTags___getitem__	../_readtags.c	/^static PyObject *__pyx_pf_9_readtags_5CTags___getitem__(PyObject *__pyx_v_self, PyObject *__pyx_v_key) {$/;"	kind:function	line:1103	language:C	file:	signature:(PyObject *__pyx_v_self, PyObject *__pyx_v_key)
+__pyx_pf_9_readtags_5CTags_find	../_readtags.c	/^static PyObject *__pyx_pf_9_readtags_5CTags_find(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {$/;"	kind:function	line:1585	language:C	file:	signature:(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds)
+__pyx_pf_9_readtags_5CTags_findNext	../_readtags.c	/^static PyObject *__pyx_pf_9_readtags_5CTags_findNext(PyObject *__pyx_v_self, PyObject *__pyx_v_entry) {$/;"	kind:function	line:1673	language:C	file:	signature:(PyObject *__pyx_v_self, PyObject *__pyx_v_entry)
+__pyx_pf_9_readtags_5CTags_first	../_readtags.c	/^static PyObject *__pyx_pf_9_readtags_5CTags_first(PyObject *__pyx_v_self, PyObject *__pyx_v_entry) {$/;"	kind:function	line:1549	language:C	file:	signature:(PyObject *__pyx_v_self, PyObject *__pyx_v_entry)
+__pyx_pf_9_readtags_5CTags_next	../_readtags.c	/^static PyObject *__pyx_pf_9_readtags_5CTags_next(PyObject *__pyx_v_self, PyObject *__pyx_v_entry) {$/;"	kind:function	line:1709	language:C	file:	signature:(PyObject *__pyx_v_self, PyObject *__pyx_v_entry)
+__pyx_pf_9_readtags_5CTags_open	../_readtags.c	/^static PyObject *__pyx_pf_9_readtags_5CTags_open(PyObject *__pyx_v_self, PyObject *__pyx_v_filepath) {$/;"	kind:function	line:1439	language:C	file:	signature:(PyObject *__pyx_v_self, PyObject *__pyx_v_filepath)
+__pyx_pf_9_readtags_5CTags_setSortType	../_readtags.c	/^static PyObject *__pyx_pf_9_readtags_5CTags_setSortType(PyObject *__pyx_v_self, PyObject *__pyx_arg_type) {$/;"	kind:function	line:1505	language:C	file:	signature:(PyObject *__pyx_v_self, PyObject *__pyx_arg_type)
+__pyx_pf_9_readtags_8TagEntry___cinit__	../_readtags.c	/^static int __pyx_pf_9_readtags_8TagEntry___cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {$/;"	kind:function	line:351	language:C	file:	signature:(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds)
+__pyx_pf_9_readtags_8TagEntry___getitem__	../_readtags.c	/^static PyObject *__pyx_pf_9_readtags_8TagEntry___getitem__(PyObject *__pyx_v_self, PyObject *__pyx_v_key) {$/;"	kind:function	line:737	language:C	file:	signature:(PyObject *__pyx_v_self, PyObject *__pyx_v_key)
+__pyx_pf_9_readtags_8TagEntry___setitem__	../_readtags.c	/^static int __pyx_pf_9_readtags_8TagEntry___setitem__(PyObject *__pyx_v_self, PyObject *__pyx_v_key, PyObject *__pyx_v_item) {$/;"	kind:function	line:388	language:C	file:	signature:(PyObject *__pyx_v_self, PyObject *__pyx_v_key, PyObject *__pyx_v_item)
+__pyx_ptype_9_readtags_CTags	../_readtags.c	/^static PyTypeObject *__pyx_ptype_9_readtags_CTags = 0;$/;"	kind:variable	line:246	language:C	file:
+__pyx_ptype_9_readtags_TagEntry	../_readtags.c	/^static PyTypeObject *__pyx_ptype_9_readtags_TagEntry = 0;$/;"	kind:variable	line:245	language:C	file:
+__pyx_skip_dispatch	../_readtags.c	/^static int __pyx_skip_dispatch = 0;$/;"	kind:variable	line:127	language:C	file:
+__pyx_sq_item_9_readtags_CTags	../_readtags.c	/^static PyObject *__pyx_sq_item_9_readtags_CTags(PyObject *o, Py_ssize_t i) {$/;"	kind:function	line:1934	language:C	file:	signature:(PyObject *o, Py_ssize_t i)
+__pyx_sq_item_9_readtags_TagEntry	../_readtags.c	/^static PyObject *__pyx_sq_item_9_readtags_TagEntry(PyObject *o, Py_ssize_t i) {$/;"	kind:function	line:1747	language:C	file:	signature:(PyObject *o, Py_ssize_t i)
+__pyx_string_tab	../_readtags.c	/^static __Pyx_StringTabEntry __pyx_string_tab[] = {$/;"	kind:variable	line:2115	language:C	file:
+__pyx_t_9_readtags_signal_handler	../_readtags.c	/^typedef void (*__pyx_t_9_readtags_signal_handler)(int);$/;"	kind:typedef	line:215	language:C	file:
+__pyx_tp_as_buffer_CTags	../_readtags.c	/^static PyBufferProcs __pyx_tp_as_buffer_CTags = {$/;"	kind:variable	line:2026	language:C	file:
+__pyx_tp_as_buffer_TagEntry	../_readtags.c	/^static PyBufferProcs __pyx_tp_as_buffer_TagEntry = {$/;"	kind:variable	line:1844	language:C	file:
+__pyx_tp_as_mapping_CTags	../_readtags.c	/^static PyMappingMethods __pyx_tp_as_mapping_CTags = {$/;"	kind:variable	line:2020	language:C	file:
+__pyx_tp_as_mapping_TagEntry	../_readtags.c	/^static PyMappingMethods __pyx_tp_as_mapping_TagEntry = {$/;"	kind:variable	line:1838	language:C	file:
+__pyx_tp_as_number_CTags	../_readtags.c	/^static PyNumberMethods __pyx_tp_as_number_CTags = {$/;"	kind:variable	line:1953	language:C	file:
+__pyx_tp_as_number_TagEntry	../_readtags.c	/^static PyNumberMethods __pyx_tp_as_number_TagEntry = {$/;"	kind:variable	line:1771	language:C	file:
+__pyx_tp_as_sequence_CTags	../_readtags.c	/^static PySequenceMethods __pyx_tp_as_sequence_CTags = {$/;"	kind:variable	line:2007	language:C	file:
+__pyx_tp_as_sequence_TagEntry	../_readtags.c	/^static PySequenceMethods __pyx_tp_as_sequence_TagEntry = {$/;"	kind:variable	line:1825	language:C	file:
+__pyx_tp_dealloc_9_readtags_CTags	../_readtags.c	/^static void __pyx_tp_dealloc_9_readtags_CTags(PyObject *o) {$/;"	kind:function	line:1922	language:C	file:	signature:(PyObject *o)
+__pyx_tp_dealloc_9_readtags_TagEntry	../_readtags.c	/^static void __pyx_tp_dealloc_9_readtags_TagEntry(PyObject *o) {$/;"	kind:function	line:1744	language:C	file:	signature:(PyObject *o)
+__pyx_tp_new_9_readtags_CTags	../_readtags.c	/^static PyObject *__pyx_tp_new_9_readtags_CTags(PyTypeObject *t, PyObject *a, PyObject *k) {$/;"	kind:function	line:1913	language:C	file:	signature:(PyTypeObject *t, PyObject *a, PyObject *k)
+__pyx_tp_new_9_readtags_TagEntry	../_readtags.c	/^static PyObject *__pyx_tp_new_9_readtags_TagEntry(PyTypeObject *t, PyObject *a, PyObject *k) {$/;"	kind:function	line:1735	language:C	file:	signature:(PyTypeObject *t, PyObject *a, PyObject *k)
+__pyx_type_9_readtags_CTags	../_readtags.c	/^PyTypeObject __pyx_type_9_readtags_CTags = {$/;"	kind:variable	line:2047	language:C
+__pyx_type_9_readtags_TagEntry	../_readtags.c	/^PyTypeObject __pyx_type_9_readtags_TagEntry = {$/;"	kind:variable	line:1865	language:C
+__stdcall	../_readtags.c	96;"	kind:macro	line:96	language:C	file:
+address	../include/readtags.h	/^	} address;$/;"	kind:member	line:123	language:C++	struct:__anon14	typeref:struct:__anon14::__anon15	access:public
+author	../include/readtags.h	/^		const char *author;$/;"	kind:member	line:78	language:C++	struct:__anon9::__anon12	access:public
+author	../readtags.c	/^		char *author;$/;"	kind:member	line:78	language:C	struct:sTagFile::__anon4	file:	access:public
+buf	../_readtags.c	/^       void *buf;$/;"	kind:member	line:33	language:C	struct:__anon5	file:	access:public
+buffer	../readtags.c	/^	char *buffer;$/;"	kind:member	line:34	language:C	struct:__anon1	file:	access:public
+c_entry	../_readtags.c	/^  tagEntry c_entry;$/;"	kind:member	line:241	language:C	struct:__pyx_obj_9_readtags_TagEntry	file:	access:public
+copyName	../readtags.c	/^static void copyName (tagFile *const file)$/;"	kind:function	line:153	language:C	file:	signature:(tagFile *const file)
+count	../include/readtags.h	/^		unsigned short count;$/;"	kind:member	line:134	language:C++	struct:__anon14::__anon16	access:public
+duplicate	../readtags.c	/^static char *duplicate (const char *str)$/;"	kind:function	line:359	language:C	file:	signature:(const char *str)
+error_number	../include/readtags.h	/^		int error_number;$/;"	kind:member	line:62	language:C++	struct:__anon9::__anon10	access:public
+extensionFields	../readtags.c	/^static int extensionFields;$/;"	kind:variable	line:791	language:C	file:
+fields	../include/readtags.h	/^	} fields;$/;"	kind:member	line:138	language:C++	struct:__anon14	typeref:struct:__anon14::__anon16	access:public
+fields	../readtags.c	/^	} fields;$/;"	kind:member	line:74	language:C	struct:sTagFile	typeref:struct:sTagFile::__anon3	file:	access:public
+file	../_readtags.c	/^  tagFile *file;$/;"	kind:member	line:227	language:C	struct:__pyx_obj_9_readtags_CTags	file:	access:public
+file	../include/readtags.h	/^	const char *file;$/;"	kind:member	line:112	language:C++	struct:__anon14	access:public
+file	../include/readtags.h	/^	} file;$/;"	kind:member	line:72	language:C++	struct:__anon9	typeref:struct:__anon9::__anon11	access:public
+fileScope	../include/readtags.h	/^	short fileScope;$/;"	kind:member	line:129	language:C++	struct:__anon14	access:public
+find	../readtags.c	/^static tagResult find (tagFile *const file, tagEntry *const entry,$/;"	kind:function	line:649	language:C	file:	signature:(tagFile *const file, tagEntry *const entry, const char *const name, const int options)
+findBinary	../readtags.c	/^static tagResult findBinary (tagFile *const file)$/;"	kind:function	line:592	language:C	file:	signature:(tagFile *const file)
+findFirstMatchBefore	../readtags.c	/^static tagResult findFirstMatchBefore (tagFile *const file)$/;"	kind:function	line:577	language:C	file:	signature:(tagFile *const file)
+findFirstNonMatchBefore	../readtags.c	/^static void findFirstNonMatchBefore (tagFile *const file)$/;"	kind:function	line:559	language:C	file:	signature:(tagFile *const file)
+findNext	../readtags.c	/^static tagResult findNext (tagFile *const file, tagEntry *const entry)$/;"	kind:function	line:689	language:C	file:	signature:(tagFile *const file, tagEntry *const entry)
+findSequential	../readtags.c	/^static tagResult findSequential (tagFile *const file)$/;"	kind:function	line:635	language:C	file:	signature:(tagFile *const file)
+findTag	../readtags.c	/^static void findTag (const char *const name, const int options)$/;"	kind:function	line:823	language:C	file:	signature:(const char *const name, const int options)
+format	../_readtags.c	/^       char *format;$/;"	kind:member	line:39	language:C	struct:__anon5	file:	access:public
+format	../include/readtags.h	/^			short format;$/;"	kind:member	line:68	language:C++	struct:__anon9::__anon11	access:public
+format	../readtags.c	/^	short format;$/;"	kind:member	line:42	language:C	struct:sTagFile	file:	access:public
+fp	../readtags.c	/^	FILE* fp;$/;"	kind:member	line:46	language:C	struct:sTagFile	file:	access:public
+gotoFirstLogicalTag	../readtags.c	/^static void gotoFirstLogicalTag (tagFile *const file)$/;"	kind:function	line:424	language:C	file:	signature:(tagFile *const file)
+growFields	../readtags.c	/^static tagResult growFields (tagFile *const file)$/;"	kind:function	line:233	language:C	file:	signature:(tagFile *const file)
+growString	../readtags.c	/^static int growString (vstring *s)$/;"	kind:function	line:125	language:C	file:	signature:(vstring *s)
+ignorecase	../readtags.c	/^			short ignorecase;$/;"	kind:member	line:66	language:C	struct:sTagFile::__anon2	file:	access:public
+info	../_readtags.c	/^  tagFileInfo info;$/;"	kind:member	line:228	language:C	struct:__pyx_obj_9_readtags_CTags	file:	access:public
+init_readtags	../_readtags.c	/^PyMODINIT_FUNC init_readtags(void)$/;"	kind:function	line:2179	language:C	signature:(void)
+initialize	../readtags.c	/^static tagFile *initialize (const char *const filePath, tagFileInfo *const info)$/;"	kind:function	line:440	language:C	file:	signature:(const char *const filePath, tagFileInfo *const info)
+initialized	../readtags.c	/^	short initialized;$/;"	kind:member	line:40	language:C	struct:sTagFile	file:	access:public
+intern	../_readtags.c	/^typedef struct {PyObject **p; char *s; long n; char is_unicode; char intern; char is_identifier;} __Pyx_StringTabEntry; \/*proto*\/$/;"	kind:member	line:123	language:C	struct:__anon6	file:	access:public
+internal	../_readtags.c	/^       void *internal;$/;"	kind:member	line:43	language:C	struct:__anon5	file:	access:public
+is_identifier	../_readtags.c	/^typedef struct {PyObject **p; char *s; long n; char is_unicode; char intern; char is_identifier;} __Pyx_StringTabEntry; \/*proto*\/$/;"	kind:member	line:123	language:C	struct:__anon6	file:	access:public
+is_unicode	../_readtags.c	/^typedef struct {PyObject **p; char *s; long n; char is_unicode; char intern; char is_identifier;} __Pyx_StringTabEntry; \/*proto*\/$/;"	kind:member	line:123	language:C	struct:__anon6	file:	access:public
+itemsize	../_readtags.c	/^       Py_ssize_t itemsize;$/;"	kind:member	line:36	language:C	struct:__anon5	file:	access:public
+key	../include/readtags.h	/^	const char *key;$/;"	kind:member	line:98	language:C++	struct:__anon13	access:public
+kind	../include/readtags.h	/^	const char *kind;$/;"	kind:member	line:126	language:C++	struct:__anon14	access:public
+len	../_readtags.c	/^       Py_ssize_t len;$/;"	kind:member	line:35	language:C	struct:__anon5	file:	access:public
+likely	../_readtags.c	163;"	kind:macro	line:163	language:C	file:
+likely	../_readtags.c	166;"	kind:macro	line:166	language:C	file:
+likely	../_readtags.c	170;"	kind:macro	line:170	language:C	file:
+line	../readtags.c	/^	vstring line;$/;"	kind:member	line:52	language:C	struct:sTagFile	file:	access:public
+lineNumber	../include/readtags.h	/^		unsigned long lineNumber;$/;"	kind:member	line:122	language:C++	struct:__anon14::__anon15	access:public
+list	../include/readtags.h	/^		tagExtensionField *list;$/;"	kind:member	line:137	language:C++	struct:__anon14::__anon16	access:public
+list	../readtags.c	/^			tagExtensionField *list;$/;"	kind:member	line:73	language:C	struct:sTagFile::__anon3	file:	access:public
+listTags	../readtags.c	/^static void listTags (void)$/;"	kind:function	line:849	language:C	file:	signature:(void)
+main	../readtags.c	/^extern int main (int argc, char **argv)$/;"	kind:function	line:880	language:C	signature:(int argc, char **argv)
+max	../readtags.c	/^			unsigned short max;$/;"	kind:member	line:71	language:C	struct:sTagFile::__anon3	file:	access:public
+n	../_readtags.c	/^typedef struct {PyObject **p; char *s; long n; char is_unicode; char intern; char is_identifier;} __Pyx_StringTabEntry; \/*proto*\/$/;"	kind:member	line:123	language:C	struct:__anon6	file:	access:public
+name	../include/readtags.h	/^		const char *name;$/;"	kind:member	line:81	language:C++	struct:__anon9::__anon12	access:public
+name	../include/readtags.h	/^	const char *name;$/;"	kind:member	line:109	language:C++	struct:__anon14	access:public
+name	../readtags.c	/^			char *name;$/;"	kind:member	line:60	language:C	struct:sTagFile::__anon2	file:	access:public
+name	../readtags.c	/^		char *name;$/;"	kind:member	line:80	language:C	struct:sTagFile::__anon4	file:	access:public
+name	../readtags.c	/^	vstring name;$/;"	kind:member	line:54	language:C	struct:sTagFile	file:	access:public
+nameComparison	../readtags.c	/^static int nameComparison (tagFile *const file)$/;"	kind:function	line:537	language:C	file:	signature:(tagFile *const file)
+nameLength	../readtags.c	/^			size_t nameLength;$/;"	kind:member	line:62	language:C	struct:sTagFile::__anon2	file:	access:public
+ndim	../_readtags.c	/^       int ndim;$/;"	kind:member	line:38	language:C	struct:__anon5	file:	access:public
+obj	../_readtags.c	/^       PyObject *obj;$/;"	kind:member	line:34	language:C	struct:__anon5	file:	access:public
+opened	../include/readtags.h	/^		int opened;$/;"	kind:member	line:59	language:C++	struct:__anon9::__anon10	access:public
+p	../_readtags.c	/^typedef struct {PyObject **p; char *s; long n; char is_unicode; char intern; char is_identifier;} __Pyx_StringTabEntry; \/*proto*\/$/;"	kind:member	line:123	language:C	struct:__anon6	file:	access:public
+parseExtensionFields	../readtags.c	/^static void parseExtensionFields (tagFile *const file, tagEntry *const entry,$/;"	kind:function	line:250	language:C	file:	signature:(tagFile *const file, tagEntry *const entry, char *const string)
+parseTagLine	../readtags.c	/^static void parseTagLine (tagFile *file, tagEntry *const entry)$/;"	kind:function	line:292	language:C	file:	signature:(tagFile *file, tagEntry *const entry)
+partial	../readtags.c	/^			short partial;$/;"	kind:member	line:64	language:C	struct:sTagFile::__anon2	file:	access:public
+pattern	../include/readtags.h	/^		const char *pattern;$/;"	kind:member	line:118	language:C++	struct:__anon14::__anon15	access:public
+pos	../readtags.c	/^			off_t pos; $/;"	kind:member	line:58	language:C	struct:sTagFile::__anon2	file:	access:public
+pos	../readtags.c	/^	off_t pos;$/;"	kind:member	line:48	language:C	struct:sTagFile	file:	access:public
+printTag	../readtags.c	/^static void printTag (const tagEntry *entry)$/;"	kind:function	line:795	language:C	file:	signature:(const tagEntry *entry)
+program	../include/readtags.h	/^	} program;$/;"	kind:member	line:88	language:C++	struct:__anon9	typeref:struct:__anon9::__anon12	access:public
+program	../readtags.c	/^	} program;$/;"	kind:member	line:85	language:C	struct:sTagFile	typeref:struct:sTagFile::__anon4	file:	access:public
+readFieldValue	../readtags.c	/^static const char *readFieldValue ($/;"	kind:function	line:510	language:C	file:	signature:( const tagEntry *const entry, const char *const key)
+readNext	../readtags.c	/^static tagResult readNext (tagFile *const file, tagEntry *const entry)$/;"	kind:function	line:494	language:C	file:	signature:(tagFile *const file, tagEntry *const entry)
+readPseudoTags	../readtags.c	/^static void readPseudoTags (tagFile *const file, tagFileInfo *const info)$/;"	kind:function	line:371	language:C	file:	signature:(tagFile *const file, tagFileInfo *const info)
+readTagLine	../readtags.c	/^static int readTagLine (tagFile *const file)$/;"	kind:function	line:223	language:C	file:	signature:(tagFile *const file)
+readTagLineRaw	../readtags.c	/^static int readTagLineRaw (tagFile *const file)$/;"	kind:function	line:173	language:C	file:	signature:(tagFile *const file)
+readTagLineSeek	../readtags.c	/^static int readTagLineSeek (tagFile *const file, const off_t pos)$/;"	kind:function	line:525	language:C	file:	signature:(tagFile *const file, const off_t pos)
+readonly	../_readtags.c	/^       int readonly;$/;"	kind:member	line:37	language:C	struct:__anon5	file:	access:public
+s	../_readtags.c	/^typedef struct {PyObject **p; char *s; long n; char is_unicode; char intern; char is_identifier;} __Pyx_StringTabEntry; \/*proto*\/$/;"	kind:member	line:123	language:C	struct:__anon6	file:	access:public
+sTagFile	../readtags.c	/^struct sTagFile {$/;"	kind:struct	line:38	language:C	file:
+search	../readtags.c	/^	} search;$/;"	kind:member	line:67	language:C	struct:sTagFile	typeref:struct:sTagFile::__anon2	file:	access:public
+sep	../readtags.c	802;"	kind:macro	line:802	language:C	file:
+sep	../readtags.c	820;"	kind:macro	line:820	language:C	file:
+shape	../_readtags.c	/^       Py_ssize_t *shape;$/;"	kind:member	line:40	language:C	struct:__anon5	file:	access:public
+size	../readtags.c	/^	off_t size;$/;"	kind:member	line:50	language:C	struct:sTagFile	file:	access:public
+size	../readtags.c	/^	size_t size;$/;"	kind:member	line:33	language:C	struct:__anon1	file:	access:public
+sort	../include/readtags.h	/^			sortType sort;$/;"	kind:member	line:71	language:C++	struct:__anon9::__anon11	access:public
+sortMethod	../readtags.c	/^	sortType sortMethod;$/;"	kind:member	line:44	language:C	struct:sTagFile	file:	access:public
+sortType	../include/readtags.h	/^} sortType ;$/;"	kind:typedef	line:35	language:C++	typeref:enum:__anon7
+status	../include/readtags.h	/^	} status;$/;"	kind:member	line:63	language:C++	struct:__anon9	typeref:struct:__anon9::__anon10	access:public
+strides	../_readtags.c	/^       Py_ssize_t *strides;$/;"	kind:member	line:41	language:C	struct:__anon5	file:	access:public
+strnuppercmp	../readtags.c	/^static int strnuppercmp (const char *s1, const char *s2, size_t n)$/;"	kind:function	line:115	language:C	file:	signature:(const char *s1, const char *s2, size_t n)
+struppercmp	../readtags.c	/^static int struppercmp (const char *s1, const char *s2)$/;"	kind:function	line:105	language:C	file:	signature:(const char *s1, const char *s2)
+suboffsets	../_readtags.c	/^       Py_ssize_t *suboffsets;$/;"	kind:member	line:42	language:C	struct:__anon5	file:	access:public
+tagEntry	../include/readtags.h	/^} tagEntry;$/;"	kind:typedef	line:140	language:C++	typeref:struct:__anon14
+tagExtensionField	../include/readtags.h	/^} tagExtensionField;$/;"	kind:typedef	line:103	language:C++	typeref:struct:__anon13
+tagFile	../include/readtags.h	/^typedef struct sTagFile tagFile;$/;"	kind:typedef	line:52	language:C++	typeref:struct:sTagFile
+tagFileInfo	../include/readtags.h	/^} tagFileInfo;$/;"	kind:typedef	line:90	language:C++	typeref:struct:__anon9
+tagResult	../include/readtags.h	/^typedef enum { TagFailure = 0, TagSuccess = 1 } tagResult;$/;"	kind:typedef	line:48	language:C++	typeref:enum:__anon8
+tagsClose	../readtags.c	/^extern tagResult tagsClose (tagFile *const file)$/;"	kind:function	line:772	language:C	signature:(tagFile *const file)
+tagsField	../readtags.c	/^extern const char *tagsField (const tagEntry *const entry, const char *const key)$/;"	kind:function	line:747	language:C	signature:(const tagEntry *const entry, const char *const key)
+tagsFind	../readtags.c	/^extern tagResult tagsFind (tagFile *const file, tagEntry *const entry,$/;"	kind:function	line:755	language:C	signature:(tagFile *const file, tagEntry *const entry, const char *const name, const int options)
+tagsFindNext	../readtags.c	/^extern tagResult tagsFindNext (tagFile *const file, tagEntry *const entry)$/;"	kind:function	line:764	language:C	signature:(tagFile *const file, tagEntry *const entry)
+tagsFirst	../readtags.c	/^extern tagResult tagsFirst (tagFile *const file, tagEntry *const entry)$/;"	kind:function	line:728	language:C	signature:(tagFile *const file, tagEntry *const entry)
+tagsNext	../readtags.c	/^extern tagResult tagsNext (tagFile *const file, tagEntry *const entry)$/;"	kind:function	line:739	language:C	signature:(tagFile *const file, tagEntry *const entry)
+tagsOpen	../readtags.c	/^extern tagFile *tagsOpen (const char *const filePath, tagFileInfo *const info)$/;"	kind:function	line:712	language:C	signature:(const char *const filePath, tagFileInfo *const info)
+tagsSetSortType	../readtags.c	/^extern tagResult tagsSetSortType (tagFile *const file, const sortType type)$/;"	kind:function	line:717	language:C	signature:(tagFile *const file, const sortType type)
+terminate	../readtags.c	/^static void terminate (tagFile *const file)$/;"	kind:function	line:470	language:C	file:	signature:(tagFile *const file)
+unlikely	../_readtags.c	164;"	kind:macro	line:164	language:C	file:
+unlikely	../_readtags.c	167;"	kind:macro	line:167	language:C	file:
+unlikely	../_readtags.c	171;"	kind:macro	line:171	language:C	file:
+url	../include/readtags.h	/^		const char *url;$/;"	kind:member	line:84	language:C++	struct:__anon9::__anon12	access:public
+url	../readtags.c	/^		char *url;$/;"	kind:member	line:82	language:C	struct:sTagFile::__anon4	file:	access:public
+value	../include/readtags.h	/^	const char *value;$/;"	kind:member	line:101	language:C++	struct:__anon13	access:public
+version	../include/readtags.h	/^		const char *version;$/;"	kind:member	line:87	language:C++	struct:__anon9::__anon12	access:public
+version	../readtags.c	/^		char *version;$/;"	kind:member	line:84	language:C	struct:sTagFile::__anon4	file:	access:public
+vstring	../readtags.c	/^} vstring;$/;"	kind:typedef	line:35	language:C	typeref:struct:__anon1	file:

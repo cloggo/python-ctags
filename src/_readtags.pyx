@@ -68,6 +68,8 @@ cdef class TagEntry:
         elif key == 'lineNumber':
             return self.c_entry.address.lineNumber 
         elif key == 'kind':
+            if self.c_entry.kind == NULL:
+                return None
             return self.c_entry.kind
         elif key == 'fileScope':
             return self.c_entry.fileScope 
@@ -79,8 +81,6 @@ cdef class TagEntry:
                 return None
 
             return result
-
-
 
 cdef class CTags:
     cdef tagFile* file
@@ -94,7 +94,7 @@ cdef class CTags:
         if self.file:
             ctagsClose(self.file)
 
-    def __getitem(self, key):
+    def __getitem__(self, key):
         if key == 'opened':
             return self.info.status.opened
         if key == 'error_number':
@@ -104,12 +104,20 @@ cdef class CTags:
         if key == 'sort':
             return self.info.file.sort
         if key == 'author':
+            if self.info.program.author == NULL:
+                return ''
             return self.info.program.author
         if key == 'name':
+            if self.info.program.name == NULL:
+                return ''
             return self.info.program.name
         if key == 'url':
+            if self.info.program.url == NULL:
+                return ''
             return self.info.program.url
         if key == 'version':
+            if self.info.program.url == NULL:
+                return ''
             return self.info.program.version
 
 

@@ -20,3 +20,18 @@ along with Python-Ctags.  If not, see <http://www.gnu.org/licenses/>.
 
 from _readtags import TagEntry, CTags
 __all__ = ['TagEntry', 'CTags']
+
+# sortType
+TAG_UNSORTED=0
+TAG_SORTED=1
+TAG_FOLDSORTED=2
+
+# Options for tagsFind()
+TAG_FULLMATCH=0x0
+TAG_PARTIALMATCH=0x1
+TAG_OBSERVECASE=0x0
+TAG_IGNORECASE=0x2
+
+# tagResult
+FAILURE = 0
+SUCCESS = 1 

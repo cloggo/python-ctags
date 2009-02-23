@@ -31,13 +31,13 @@ doclines = __doc__.split("\n")
 
 setup(
 	name='python-ctags',
-	version='1.0.2',
+	version='1.0.3',
 	description=doclines[0],
+	long_description="\n".join(doclines[2:]),
 	author='Aaron H. K. Diep',
 	author_email='ahkdiep@gmail.com',
-	url='http://code.google.com/p/python-ctags/',
 	license = 'LGPL',
-	long_description="\n".join(doclines[2:]),
+	url='http://code.google.com/p/python-ctags/',
 	classifiers = filter(None, classifiers.split("\n")),
 	packages = ['ctags'],
 	ext_package='ctags',
