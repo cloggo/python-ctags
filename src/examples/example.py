@@ -19,8 +19,20 @@ if status:
     print entry['name']
     print entry['kind']
     
-if tagFile.find(entry, 'findtag', ctags.TAG_PARTIALMATCH | ctags.TAG_IGNORECASE):
+if tagFile.find(entry, 'find', ctags.TAG_PARTIALMATCH | ctags.TAG_IGNORECASE):
     print 'found'
     print entry['lineNumber']
     print entry['pattern']
     print entry['kind']
+
+status = tagFile.findNext(entry)
+if status:
+    print entry['lineNumber']
+    print entry['pattern']
+    print entry['kind']
+    
+if tagFile.next(entry):
+    print entry['lineNumber']
+    print entry['pattern']
+    print entry['kind']
+    

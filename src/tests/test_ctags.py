@@ -15,5 +15,6 @@ class TestCTags(Testcase):
         stdout_value, stderr_value = proc.communicate()
         
     def testTagEntry(self):
+        pass
         
         
