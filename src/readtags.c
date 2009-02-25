@@ -1,5 +1,5 @@
 /*
-*   $Id$
+*   $Id: readtags.c 186457 2009-02-21 19:21:18Z hai $
 *
 *   Copyright (c) 1996-2003, Darren Hiebert
 *
