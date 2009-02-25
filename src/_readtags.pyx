@@ -1,5 +1,5 @@
 """
-Copyright (C) 2008 Aaron Diep <ahkdiep@gmail.com>
+$Id$
 
 This file is part of Python-Ctags.
 

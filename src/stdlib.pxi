@@ -1,4 +1,6 @@
 """
+$Id$
+
 Copyright (C) 2008 Aaron Diep <ahkdiep@gmail.com>
 
 This file is part of Python-Ctags.
