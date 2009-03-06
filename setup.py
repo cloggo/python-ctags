@@ -31,7 +31,7 @@ doclines = __doc__.split("\n")
 
 setup(
 	name='python-ctags',
-	version='1.0.' + "$Rev$",
+	version='1.0.6' 
 	description=doclines[0],
 	long_description="\n".join(doclines[2:]),
 	author='Aaron H. K. Diep',
