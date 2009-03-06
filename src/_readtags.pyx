@@ -118,7 +118,7 @@ cdef class CTags:
                 return ''
             return self.info.program.url
         if key == 'version':
-            if self.info.program.url == NULL:
+            if self.info.program.version == NULL:
                 return ''
             return self.info.program.version
 
