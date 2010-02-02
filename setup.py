@@ -31,19 +31,19 @@ doclines = __doc__.split("\n")
 
 setup(
 	name='python-ctags',
-	version='1.0.6' 
-	description=doclines[0],
-	long_description="\n".join(doclines[2:]),
-	author='Aaron H. K. Diep',
-	author_email='ahkdiep@gmail.com',
-	license = 'LGPL',
-	url='http://code.google.com/p/python-ctags/',
-	classifiers = filter(None, classifiers.split("\n")),
-	packages = ['ctags'],
-	ext_package='ctags',
+	version='1.0.6' ,
+	description=doclines[0], 
+	long_description="\n".join(doclines[2:]), 
+	author='Aaron H. K. Diep', 
+	author_email='ahkdiep@gmail.com', 
+	license = 'LGPL', 
+	url='http://code.google.com/p/python-ctags/', 
+	classifiers = filter(None, classifiers.split("\n")), 
+	packages = ['ctags'], 
+	ext_package='ctags', 
 	ext_modules=[Extension(
             '_readtags', ['src/readtags.c', 'src/_readtags.c'],
-            include_dirs=['src/include']
+	include_dirs=['src/include']
 						)],
 	package_dir = {'ctags' : 'src/ctags'}
 
