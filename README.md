@@ -14,7 +14,7 @@ From Python Package Index,
 easy_install python-ctags
 ```
 
-From http://python-ctags.googlecode.com/files/python-ctags-1.0.5.tar.gz,
+From https://github.com/hddmet/python-ctags/archive/master.zip,
 ```python
 python ./setup.py build
 python ./setup.py install
