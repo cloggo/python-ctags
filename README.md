@@ -10,9 +10,9 @@ This project wrote a wrapper for read tags library.  I have been using the packa
 ## Installation
 
 From Python Package Index,
-{{{
+```bash
 easy_install python-ctags
-}}}
+```
 
 From [http://python-ctags.googlecode.com/files/python-ctags-1.0.5.tar.gz source],
 ```python
