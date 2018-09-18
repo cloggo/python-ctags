@@ -37,7 +37,7 @@ setup(
 	author='Aaron H. K. Diep',
 	author_email='ahkdiep@gmail.com',
 	license = 'LGPL',
-	url='https://github.com/hddmet/python-ctags',
+	url='https://github.com/cloggo/python-ctags',
 	classifiers = classifiers,
 	packages = ['ctags'],
 	ext_package='ctags',
